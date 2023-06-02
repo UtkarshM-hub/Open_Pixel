@@ -11,12 +11,11 @@ fetch("./data.json").then(res=>res.json()).then(Data=>{
             onmouseout="MouseOutEvent(event.target)" 
             onmouseover="MouseOverEvent(event.target)" 
             style="background-color:${item.color}" 
-            id="location_${item.x+"_"+item.y}" 
+            id="location_${item.Number}" 
             class="Square">
-                <div id="info_${item.x+"_"+item.y}" class="InfoContainer">
+                <div id="info_${item.Number}" class="InfoContainer">
                     <p>#${item.name}</p>
-                    <p>x:${item.x}</p>
-                    <p>y:${item.y}</p>
+                    <p>Number:${item.Number}</p>
                 </div>
         </div>`;
         toBeRendered+=currentEle;
@@ -27,17 +26,17 @@ fetch("./data.json").then(res=>res.json()).then(Data=>{
 // Make name visibile
 const MouseOverEvent=(e)=>{
     let id=e.id.split("_");
-    document.getElementById(`info_${id[1]}_${id[2]}`).style.display="block";
-    document.getElementById(`location_${id[1]}_${id[2]}`).style.transform="scale(1.1)";
-    document.getElementById(`location_${id[1]}_${id[2]}`).style.boxShadow="0px 0px 5px white";
+    document.getElementById(`info_${id[1]}`).style.display="block";
+    document.getElementById(`location_${id[1]}`).style.transform="scale(1.1)";
+    document.getElementById(`location_${id[1]}`).style.boxShadow="0px 0px 5px white";
 }
 
 // Make it invisible
 const MouseOutEvent=(e)=>{
     let id=e.id.split("_");
-    document.getElementById(`info_${id[1]}_${id[2]}`).style.display="none";
-    document.getElementById(`location_${id[1]}_${id[2]}`).style.transform="scale(1)";
-    document.getElementById(`location_${id[1]}_${id[2]}`).style.boxShadow="0px 0px 5px transparent";
+    document.getElementById(`info_${id[1]}`).style.display="none";
+    document.getElementById(`location_${id[1]}`).style.transform="scale(1)";
+    document.getElementById(`location_${id[1]}`).style.boxShadow="0px 0px 5px transparent";
 }
 
 
