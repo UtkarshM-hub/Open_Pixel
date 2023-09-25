@@ -6,6 +6,8 @@ It is a project created to teach open source enthusiasts about fundamentals of o
 ## CONTRIBUTING
 check out the [contribution guide](https://github.com/UtkarshM-hub/Open_Pixel/blob/main/CONTRIBUTING.md) for infomation about how to contribute.
 
+Checkout your Pixel at [My Pixel](https://open-pixel.vercel.app/).
+
 ## CODE OF CONDUCT
 We want to make sure that this project is welcoming to as many people as possible. By interacting with the project in any shape or form you are agreeing to the project's [Code of Conduct.](https://github.com/UtkarshM-hub/Open_Pixel/blob/main/CODE_OF_CONDUCT.md)
 
