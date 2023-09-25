@@ -29,13 +29,14 @@ Follow the given steps to make your contribution to this project
 3.  Change the value of `color` and `name` according to your preference
 
 4.  Open Terminal and type following command
-
+    
         git add .
-        git commit -m "Feat: Add My Pixel(0,0)"
+        git commit -m "Feat: Add My Pixel(x,y)"
         git push
+    ### NOTE: Replace x and y with your values of x and y.   
 
-5.  Open you forked repository, click on `Create a Pull Request`
+6.  Open you forked repository, click on `Create a Pull Request`
 
-6.  Let the title of the pull request as it is and click on `Create a Pull Request`
+7.  Let the title of the pull request as it is and click on `Create a Pull Request`
 
 ## Congratulations! you have successfully contributed to this project🎉
