@@ -7,7 +7,7 @@ It is a project created to teach open source enthusiasts about fundamentals of o
 check out the [contribution guide](https://github.com/UtkarshM-hub/Open_Pixel/blob/main/CONTRIBUTING.md) for infomation about how to contribute.
 
 ## CODE OF CONDUCT
-We want to make sure that this project is as welcoming to as many people as possible. By interacting with the project in any shape or form you are agreeing to the project's [Code of Conduct.](https://github.com/UtkarshM-hub/Open_Pixel/blob/main/CODE_OF_CONDUCT.md)
+We want to make sure that this project is welcoming to as many people as possible. By interacting with the project in any shape or form you are agreeing to the project's [Code of Conduct.](https://github.com/UtkarshM-hub/Open_Pixel/blob/main/CODE_OF_CONDUCT.md)
 
 If you feel like another individual has violated the code of conduct, please raise a complaint to [utmandape4@gmail.com](mailto:utmandape4@gmail.com).
 
